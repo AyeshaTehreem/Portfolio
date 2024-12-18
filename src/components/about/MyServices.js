@@ -1,32 +1,29 @@
 import React from "react";
-import { FaAppStoreIos } from "react-icons/fa";
-import { AiTwotoneAppstore } from "react-icons/ai";
-import { SiAntdesign } from "react-icons/si";
-import { BiCodeAlt } from "react-icons/bi";
+import { FaCode, FaProjectDiagram, FaDatabase, FaLaptopCode } from "react-icons/fa";
 import ServicesCard from "./ServicesCard";
 
 const MyServices = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
       <ServicesCard
-        icons={<BiCodeAlt />}
-        title="Web Development"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaCode />}
+        title="Full Stack Development"
+        subTitle="Experienced in building responsive and scalable web applications using the MERN stack (React.js, Node.js, MongoDB) and .NET framework."
       />
       <ServicesCard
-        icons={<SiAntdesign />}
-        title="Web Design"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaProjectDiagram />}
+        title="Project Development"
+        subTitle="Proficient in developing robust systems like Event Management, POS & Inventory, and Attendance Portals using modern technologies."
       />
       <ServicesCard
-        icons={<AiTwotoneAppstore />}
-        title="Mobile Application"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaDatabase />}
+        title="Backend & API Integration"
+        subTitle="Skilled in backend development, database management, and API integration for efficient and reliable system performance."
       />
       <ServicesCard
-        icons={<FaAppStoreIos />}
-        title="SEO"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaLaptopCode />}
+        title="Frontend Development"
+        subTitle="Skilled in creating interactive, responsive user interfaces using React.js, Tailwind CSS, Bootstrap, and modern web technologies."
       />
     </div>
   );

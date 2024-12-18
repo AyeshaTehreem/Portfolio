@@ -30,15 +30,15 @@ const Skills = () => {
           {/* Mobile Application */}
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">
-              Mobile Application
+              API Integration
             </p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">UI Design</p>
+            <p className="text-base text-textColor -mb-1.5">Handling Databse</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -55,30 +55,18 @@ const Skills = () => {
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">English</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Hindi */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Hindi</p>
+            <p className="text-base text-textColor -mb-1.5">Urdu</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Arabic*/}
-          <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Arabic</p>
-            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[70%] h-full absolute top-0 left-0 bg-designColor"></span>
-            </span>
-          </div>
-          {/* French */}
-          <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">French</p>
-            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[60%] h-full absolute top-0 left-0 bg-designColor"></span>
-            </span>
-          </div>
+          
         </div>
       </div>
       {/* =============== Design and Languages End here ===================== */}
@@ -111,7 +99,7 @@ const Skills = () => {
           </div>
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">TypeScript</p>
+            <p className="text-base text-textColor -mb-1.5">.NET</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -125,55 +113,51 @@ const Skills = () => {
         <ResumeTitle title="Knowledge" icon={<IoIosPaper />} />
         {/* English */}
         <ul className="py-4 flex flex-col gap-2 border-b-[1px] border-b-zinc-800">
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Website hosting
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            iOS and android apps
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Create logo design
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Design for print
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Modern and mobile-ready
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Advertising services include
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Graphics and animations
-          </li>
-          <li className="flex items-center gap-4 text-textColor">
-            <span className="text-designColor text-lg">
-              <GiCheckMark />
-            </span>
-            Search engine marketing
-          </li>
-        </ul>
+ 
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    Frontend Development (HTML, CSS, React.js, Tailwind CSS)
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    Backend Development (Node.js, Express.js, MongoDB)
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    API Integration & Development
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    Responsive Web Design
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    Version Control (Git & GitHub)
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    C++, C#, and .NET Windows Forms
+  </li>
+  <li className="flex items-center gap-4 text-textColor">
+    <span className="text-designColor text-lg">
+      <GiCheckMark />
+    </span>
+    Problem Solving & Debugging
+  </li>
+</ul>
+
       </div>
       {/* =============== Design and Languages End here ===================== */}
     </div>
