@@ -20,14 +20,15 @@ const Left = () => {
   return (
     <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
       {/* Banner Image */}
-      <div className="w-full h-48 md:h-64 lg:h-80 overflow-hidden rounded-t-xl flex items-center justify-center">
-        <img
-          className="w-full max-h-full object-contain object-center"
-          src={bannerImg}
-          loading="priority"
-          alt="bannerImage"
-        />
-      </div>
+      <div className="w-full h-48 md:h-64 lg:h-80 overflow-hidden rounded-t-xl flex items-center justify-center mt-14">
+  <img
+    className="w-full max-h-full object-contain object-center"
+    src={bannerImg}
+    loading="priority"
+    alt="bannerImage"
+  />
+</div>
+
 
       {/* Content */}
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
