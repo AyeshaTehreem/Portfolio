@@ -159,14 +159,14 @@ const Home = () => {
         {/* ======= Other Icons End */}
       </div>
       {/* ================= Left Icons Start here ====================== */}
-      <div className="w-full lgl:w-[94%] h-full flex flex-col gap-6 lgl:gap-0 lgl:flex-row items-center">
-        {/* ======================== Home Left Start here ============================ */}
-        <Left />
-        {/* ======================== Home Left End here ============================== */}
-        <div className="w-full lgl:w-8/12 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center">
-          {/* ======================== Smaller device content Start ======================== */}
-          <div className="w-full h-full lgl:hidden bg-transparent rounded-2xl flex flex-col gap-6">
-            <About />
+      <div className="w-full lgl:w-[94%] h-full flex flex-col gap-6 lgl:gap-6 lgl:flex-row items-center">
+  {/* ======================== Home Left Start here ============================ */}
+  <Left />
+  {/* ======================== Home Left End here ============================== */}
+
+  <div className="w-full lgl:w-8/12 h-[95%] bg-bodyColor rounded-2xl flex justify-center items-center">
+    {/* ======================== Smaller device content Start ======================== */}
+    <div className="w-full h-full lgl:hidden bg-transparent rounded-2xl flex flex-col gap-6">
             <Resume />
             <Projects />
             
